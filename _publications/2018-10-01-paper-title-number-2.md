@@ -2,7 +2,7 @@
 title: "Supranuclear eye movements and nystagmus in children: A review of the literature and guide to clinical examination, interpretation of findings and age-appropriate norms"
 collection: publications
 permalink: /publication/2018-10-01-paper-title-number-2
-excerpt: 'Supranuclear children'
+excerpt: 
 date: 2018-10-01
 venue: 'Eye'
 paperurl: 'https://www.nature.com/articles/s41433-018-0216-y'
