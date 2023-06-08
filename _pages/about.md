@@ -20,4 +20,4 @@ Children that have [squint](https://www.nhs.uk/conditions/squint/) have altered 
 
 Adolescents that had squint in childhood are more likely to have a mental health condition such as depression, anxiety or schizophrenia. 
 
-I am interested in why these adolescents have poorer mental health than their peers. Could it be related to the social or physical factors described above? Shared genetic factors? Or a complex process through health behaviours, associations/interactions with another variable such as neuro-divergent conditions (e.g. Autsism & ADHD).
+I am interested in why these adolescents have poorer mental health than their peers. Could it be related to the social or physical factors described above? Shared genetic factors? Or a complex process through associations  / interactions with third variable(s) such as neuro-divergent conditions (e.g. Autsism & ADHD).
