@@ -9,6 +9,4 @@ paperurl: 'https://link.springer.com/article/10.1007/s40123-018-0151-9'
 citation: 'Osborne DC, Greenhalgh KM, Evans MJ, Self JE. Atropine penalization versus occlusion therapies for unilateral amblyopia after the critical period of visual development: a systematic review. <i> Ophthalmology and therapy. </i> 2018 Dec;7:323-32.'
 ---
 
-Download the paper [here](https://link.springer.com/article/10.1007/s40123-018-0151-9)
-
 Recommended citation: Osborne DC, Greenhalgh KM, Evans MJ, Self JE. Atropine penalization versus occlusion therapies for unilateral amblyopia after the critical period of visual development: a systematic review. Ophthalmology and therapy. 2018 Dec;7:323-32.

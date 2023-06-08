@@ -9,6 +9,4 @@ paperurl: 'https://link.springer.com/content/pdf/10.1038/s41598-019-49368-7.pdf'
 citation: 'O’Gorman L, Norman CS, Michaels L, Newall T, Crosby AH, Mattocks C, Cree AJ, Lotery AJ, Baple EL, Ratnayaka J, Baralle D. A small gene sequencing panel realises a high diagnostic rate in patients with congenital nystagmus following basic phenotyping. <i>Scientific reports</i>. 2019 Sep 13;9(1):1-8.'
 ---
 
-Download the paper [here](https://link.springer.com/content/pdf/10.1038/s41598-019-49368-7.pdf)
-
 Recommended citation: O’Gorman L, Norman CS, Michaels L, Newall T, Crosby AH, Mattocks C, Cree AJ, Lotery AJ, Baple EL, Ratnayaka J, Baralle D. A small gene sequencing panel realises a high diagnostic rate in patients with congenital nystagmus following basic phenotyping. <i>Scientific reports</i>. 2019 Sep 13;9(1):1-8.
