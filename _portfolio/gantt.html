@@ -22,8 +22,8 @@ collection: portfolio
 <title>The lcmm Package</title>
 
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-     <div id="chart_div"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+     <div id="chart_div">
 
      google.charts.load('current', {'packages':['gantt']});
      google.charts.setOnLoadCallback(drawChart);
@@ -89,6 +89,8 @@ collection: portfolio
  
        chart.draw(data, options);
      }
+    </div>
+</script>
 
     
    
