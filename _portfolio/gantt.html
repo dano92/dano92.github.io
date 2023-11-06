@@ -1,0 +1,108 @@
+---
+title: "My Gantt chart"
+excerpt: "Lates updated 06 Nov 2023"
+collection: portfolio
+---
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Daniel Osborne" />
+
+<meta name="date" content="2023-07-31" />
+
+<title>The lcmm Package</title>
+
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+     <div id="chart_div"></div>
+
+     google.charts.load('current', {'packages':['gantt']});
+     google.charts.setOnLoadCallback(drawChart);
+ 
+     function drawChart() {
+ 
+       var data = new google.visualization.DataTable();
+       data.addColumn('string', 'Task ID');
+       data.addColumn('string', 'Task Name');
+       data.addColumn('string', 'Resource');
+       data.addColumn('date', 'Start Date');
+       data.addColumn('date', 'End Date');
+       data.addColumn('number', 'Duration');
+       data.addColumn('number', 'Percent Complete');
+       data.addColumn('string', 'Dependencies');
+ 
+       data.addRows([
+           ['Identify supervisors', 'Idenfify supervisors', 'pre',
+         new Date(2022,3,22), new Date(2023,1,5), null, 100, null],
+         
+            ['Design project', 'Design project', 'pre',
+         new Date(2022,3,22), new Date(2023,1,5), null, 100, null],
+         
+         ['Project interview with GW4 directors', 'Project interview with GW4 directors', 'pre',
+         new Date(2022,9,22), new Date(2022,9,30), null, 100, null],
+         
+         ['Literature reviews', 'Literature reviews', 'year 1',
+         new Date(2023,6,22), new Date(2023,12,5), null, 75, null],
+         
+         ['Write analysis document', 'Write analysis document', 'year 1',
+         new Date(2023,9,22), new Date(2023,11,30), null, 30, null],
+         
+         ['Trajectory modelling', 'Trajectory modelling', 'year 1', 
+         new Date(2023,11,30), new Date(2024,1,30), null, 0, null],
+         
+         ['Qualitative study PPI', 'Qualitative PPI', 'year 1',
+         new Date(2024,2,30), new Date(2024,4,30), null, 0, null],
+         
+         ['Write/publish paper 1 (alspac)', 'Write/publish paper 1 (alspac)', 'year 1',
+         new Date(2024,4,30), new Date(2024,5,30), null, 0, null],
+         
+         ['Qualitative interviews and analysis', 'Qualitative interviews and analysis', 'year 2',
+         new Date(2024,4,30), new Date(2024,11,30), null, 0, null],
+         
+         ['alspac study (informed by qualitative work)', 'alspac study (informed by qualitative work)', 'year 2',
+         new Date(2024,11,30), new Date(2025,6,30), null, 0, null],
+         
+         ['replication', 'replication', 'year 3',
+         new Date(2025,6,30), new Date(2025,12,30), null, 0, null],
+         
+         ['writing', 'writing', 'year 3',
+         new Date(2025,12,30), new Date(2026,6,30), null, 0, null],
+       ]);
+ 
+       var options = {
+         height: 400,
+         gantt: {
+           trackHeight: 30
+         }
+       };
+ 
+       var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+ 
+       chart.draw(data, options);
+     }
+     <div id="chart_div"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+   
